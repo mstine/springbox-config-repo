@@ -1,2 +1,2 @@
 configserver: true
-bus: false
+bus: true
