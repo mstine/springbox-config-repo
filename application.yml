@@ -5,4 +5,4 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
     metadataMap:
-      instanceId: ${vcap.application.instance_id:${spring.application.name}:${server.port}}
+      instanceId: ${vcap.application.instance_id:${spring.application.name}:${server.port:8080}}
