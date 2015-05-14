@@ -1,6 +1,9 @@
 configserver: true
 bus: true
 
+test: 
+  name: githubName
+
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
